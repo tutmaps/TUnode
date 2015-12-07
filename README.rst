@@ -13,6 +13,10 @@ Install geonode with::
     $ sudo apt-get update
 
     $ sudo apt-get install geonode
+    
+    $ geonode createsuperuser
+
+    $ sudo geonode-updateip 127.0.0.1
 
 Create a new template based on the geonode example project.::
     
